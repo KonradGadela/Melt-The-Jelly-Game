@@ -56,7 +56,7 @@ namespace Melt_The_Jelly_Game
             this.txtJelliesMelted.AutoSize = true;
             this.txtJelliesMelted.Font = new System.Drawing.Font("Showcard Gothic", 28F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.txtJelliesMelted.ForeColor = System.Drawing.Color.White;
-            this.txtJelliesMelted.Location = new System.Drawing.Point(434, 24);
+            this.txtJelliesMelted.Location = new System.Drawing.Point(710, 24);
             this.txtJelliesMelted.Name = "txtJelliesMelted";
             this.txtJelliesMelted.Size = new System.Drawing.Size(364, 47);
             this.txtJelliesMelted.TabIndex = 1;
@@ -67,7 +67,7 @@ namespace Melt_The_Jelly_Game
             // 
             this.label2.Font = new System.Drawing.Font("Showcard Gothic", 28F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(888, 24);
+            this.label2.Location = new System.Drawing.Point(450, 24);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(187, 47);
             this.label2.TabIndex = 2;
@@ -75,9 +75,9 @@ namespace Melt_The_Jelly_Game
             // 
             // healthBar
             // 
-            this.healthBar.Location = new System.Drawing.Point(840, 84);
+            this.healthBar.Location = new System.Drawing.Point(100, 84);
             this.healthBar.Name = "healthBar";
-            this.healthBar.Size = new System.Drawing.Size(272, 45);
+            this.healthBar.Size = new System.Drawing.Size(1000, 45);
             this.healthBar.TabIndex = 3;
             this.healthBar.Value = 100;
             this.healthBar.Click += new System.EventHandler(this.progressBar1_Click);
@@ -87,7 +87,7 @@ namespace Melt_The_Jelly_Game
             this.player.Image = global::Melt_The_Jelly_Game.Properties.Resources.up;
             this.player.Location = new System.Drawing.Point(536, 631);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(71, 100);
+            this.player.Size = new System.Drawing.Size(100, 71);
             this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.player.TabIndex = 4;
             this.player.TabStop = false;
